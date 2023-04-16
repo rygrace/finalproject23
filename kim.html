@@ -52,9 +52,21 @@
        <div class="catchphrases">
          <h2>Catch Phrases</h2>
         <ul class="fa-ul">
-         <li><span class="fa-li"><i class="fa-solid fa-volume-high"></i></span>Hieeeeee!</li>
-        <li><span class="fa-li"><i class="fa-solid fa-volume-high"></i></span>Bam, Bam, bitch!</li>
-        <li><span class="fa-li"><i class="fa-solid fa-volume-high"></i></span>Eat it before it eats you!</li>
+          <li><span class="fa-li"><i class="fa-solid fa-volume-high" id="bookedicon"></i></span>Booked and Blessed</li>
+         
+          <!-- <li><span class="fa-li"><i class="fa-solid fa-volume-high" onclick="document.getElementById('audiobooked').play()"></i></span>Booked and Blessed</li>
+          -->
+         <audio id="audio">
+          <source src="sounds/bookedandblessed.mp4" id="audiobooked" type="audio/mp4">
+          Your browser does not support the audio element.
+        </audio>
+
+        <li><span class="fa-li"><i class="fa-solid fa-volume-high" id="yupicon"></i></span>Yup</li>
+        <audio>
+          <source src="sounds/yup.mp4" id="audioyup" type="audio/mp4">
+          Your browser does not support the audio element.
+        </audio>
+        
         </ul>
       </div>
 
