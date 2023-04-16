@@ -111,7 +111,11 @@ figcaption{
 }
 
 .catchphrases {
-    margin:30px;
+    
+    margin: 50px;
+padding: 25px 100px 25px 100px;
+background-image: url("../images/daisies3.jpg");
+border-radius: 20px;
 }
 
 .sidehustletitle{
@@ -127,11 +131,16 @@ h2{
     font-family: 'Bungee Inline', cursive;
     font-size: 25px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .fa-li i{
     display: contents;
 
+}
+
+.youtubevideo{
+    margin-top: 50px;
 }
 
 /* html, body {
@@ -245,6 +254,7 @@ font-size: 18px;
 
  .nothomegrid{
     grid-template-columns: 40% 50%;
+   margin-left: 75px;
  }   
 .trixiepicture{
     grid-column: 1/2;
@@ -266,10 +276,7 @@ font-size: 18px;
 grid-column: 2/3;
 grid-row: 1/2;
 align-self: center;
-margin: 50px;
-padding: 25px 100px 25px 100px;
-background-image: url("../images/daisies3.jpg");
-border-radius: 20px;
+
 
 
 }
